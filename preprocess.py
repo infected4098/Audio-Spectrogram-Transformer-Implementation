@@ -1,4 +1,4 @@
-from utils import envelope
+from utils import envelope, normalize_mel
 
 m_path = "/content/gdrive/MyDrive/Audio Classification/audio_train" # 수정
 df = pd.read_csv("/content/gdrive/MyDrive/Audio Classification/real_df.csv") # 수정
